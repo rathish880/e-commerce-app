@@ -19,9 +19,6 @@ import android.widget.FrameLayout;
 
 import java.lang.ref.WeakReference;
 
-/**
- * Created by coderzlab on 18/8/16.
- */
 
 public class CircleAnimationUtil
 {

@@ -17,9 +17,6 @@ import android.net.Uri;
 import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
-/**
- * Created by coderzlab on 18/8/16.
- */
 
 public class CircleImageView extends AppCompatImageView
 {

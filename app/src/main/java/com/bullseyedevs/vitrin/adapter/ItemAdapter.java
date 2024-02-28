@@ -17,13 +17,6 @@ import com.bullseyedevs.vitrin.model.Item;
 import com.bullseyedevs.vitrin.model.Solution;
 import com.bumptech.glide.Glide;
 
-/**
- * Created by brkckr on 28.10.2017.
- */
-
-/**
- * @author Aidan Follestad (afollestad)
- */
 
 public class ItemAdapter extends SectionedRecyclerViewAdapter<ItemAdapter.ItemViewHolder>
 {

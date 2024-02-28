@@ -12,9 +12,7 @@ import com.bullseyedevs.vitrin.model.SubCategory;
 
 import java.util.ArrayList;
 
-/**
- * Created by brkckr on 28.10.2017.
- */
+
 
 public class SubCategoryAdapter extends RecyclerView.Adapter<SubCategoryAdapter.SubCategoryViewHolder>
 {

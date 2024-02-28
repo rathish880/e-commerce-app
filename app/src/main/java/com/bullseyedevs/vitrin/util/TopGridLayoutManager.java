@@ -5,9 +5,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearSmoothScroller;
 import android.support.v7.widget.RecyclerView;
 
-/**
- * Created by brkckr on 18.11.2017.
- */
+
 
 public class TopGridLayoutManager extends GridLayoutManager
 {

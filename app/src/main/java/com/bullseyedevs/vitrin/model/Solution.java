@@ -4,9 +4,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Map;
 
-/**
- * Created by brkckr on 17.11.2017.
- */
 
 public class Solution implements Serializable
 {

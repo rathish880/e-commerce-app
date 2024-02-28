@@ -15,9 +15,6 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-/**
- * Created by brkckr on 6.12.2017.
- */
 
 public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderViewHolder>
 {

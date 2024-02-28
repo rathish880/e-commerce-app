@@ -1,8 +1,6 @@
 package com.bullseyedevs.vitrin.model;
 
-/**
- * Created by brkckr on 23.11.2017.
- */
+
 
 public class Order
 {

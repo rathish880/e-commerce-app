@@ -479,15 +479,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.IItem
         return tempItemList;
     }
 
-    /**
-     * Gets a Map which has the key is the sub-category
-     * and the value is the items of that sub-category.
-     * That Map will also be used in the Sectioned RecyclerView.
-     *
-     * @param subCategoryList sub-categories which is owned by a category
-     *
-     * @return a Map
-     */
+
     private Map<SubCategory, ArrayList<Item>> getItemMap(ArrayList<SubCategory> subCategoryList)
     {
         Map<SubCategory, ArrayList<Item>> itemMap = new HashMap<SubCategory, ArrayList<Item>>();
@@ -576,20 +568,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.IItem
         });
     }
 
-    /**
-     * Animates when item is added to the cart.
-     * The animation will start at item's ImageView,
-     * continue up to cart MenuItem at ToolBar.
-     * This will take 0.3 seconds. When the animation is over,
-     * the item will be added to the cart in quantities.
-     *
-     * @see CircleAnimationUtil
-     * @see com.bullseyedevs.vitrin.util.CircleImageView
-     *
-     * @param targetView
-     * @param item element wanted to add to cart
-     * @param quantity the amount of how many item you want to add to cart
-     */
+
     private void addItemToCartAnimation(ImageView targetView, final Item item, final int quantity)
     {
         RelativeLayout destView = (RelativeLayout) findViewById(R.id.rlCart);
@@ -773,10 +752,6 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.IItem
                 .show();
     }
 
-    /**
-     * Represents an asynchronous task used to complete
-     * the order.
-     */
     public class CompleteOrderTask extends AsyncTask<Void, Void, Boolean>
     {
         @Override
@@ -810,9 +785,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.IItem
         }
     }
 
-    /**
-     * Shows the progress
-     */
+
     private void showProgress(boolean show)
     {
         if (dialog == null)
@@ -843,9 +816,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.IItem
         handleOrderDrawer();
     }
 
-    /*
-    * Shows a message by using Snackbar
-    */
+
     private void showMessage(Boolean isSuccessful, String message)
     {
         Snackbar snackbar = Snackbar.make(findViewById(android.R.id.content), message, Snackbar.LENGTH_LONG);

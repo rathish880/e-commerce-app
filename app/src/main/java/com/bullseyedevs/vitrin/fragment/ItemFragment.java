@@ -18,9 +18,7 @@ import com.bullseyedevs.vitrin.model.SubCategory;
 import com.bullseyedevs.vitrin.util.TopGridLayoutManager;
 import com.bullseyedevs.vitrin.util.TopLinearLayoutManager;
 
-/**
- * Created by brkckr on 28.10.2017.
- */
+
 
 public class ItemFragment extends Fragment implements SubCategoryAdapter.ISubCategoryAdapterItemCallback
 {
